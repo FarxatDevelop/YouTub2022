@@ -1,0 +1,35 @@
+.FullVideo {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.FullVideo-container {
+  width: 1380px;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}
+.FullVideo-body {
+  display: flex;
+  min-height: 100%;
+}
+.FullVideo-left {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 56px;
+}
+.FullVideo-left .video {
+  height: 73vh;
+}
+.FullVideo-left .video iframe {
+  height: 100% !important;
+  width: 100% !important;
+}
+.FullVideo-right {
+  height: 100%;
+  width: 30%;
+  margin-top: 56px;
+}

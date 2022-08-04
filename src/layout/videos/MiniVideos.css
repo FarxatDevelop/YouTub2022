@@ -1,0 +1,14 @@
+.mini-videos {
+  height: 92vh;
+  overflow-y: scroll;
+  width: 420px;
+}
+.mini-videos::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+.mini-videos::-webkit-scrollbar-thumb {
+  width: 6px;
+  background-color: #a5a4a4;
+  border-radius: 8px;
+}
